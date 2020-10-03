@@ -1,5 +1,7 @@
-##Dataset Information
-###Source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+## Dataset Information
+
+### Source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
 wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 
@@ -14,7 +16,8 @@ gravity. The gravitational force is assumed to have only low frequency component
 frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency 
 domain.
 
-##Attribute Information
+## Attribute Information
+
 ###Source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 For each record in the dataset it is provided: 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
@@ -24,13 +27,13 @@ For each record in the dataset it is provided:
 - An identifier of the subject who carried out the experiment.
 
 
-##Identifiers
+## Identifiers
 - Subject Number - The ID number of the test subject (1-30)
 - Activities - The types of activities performed when the measurements were taken (1-6)
 
 
-##Features 
-###(all measurements were normalized from -1 to 1)
+## Features 
+### (all measurements were normalized from -1 to 1)
 - timeBodyAccelerator Mean-X
 - timeBodyAccelerator Mean-Y
 - timeBodyAccelerator Mean-Z
@@ -121,7 +124,7 @@ For each record in the dataset it is provided:
 - 6 Laying: laying down during the measurement
 
 
-##What the code in 'run_analysis.R' will do (in order) when the script is run:
+## What the code in 'run_analysis.R' will do (in order) when the script is run:
 - Download UCI HAR Dataset and store file locally
 - Load dplyr and tidyr
 - Unzip locally stored zip file
